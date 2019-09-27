@@ -11,10 +11,8 @@ We have 3 buttons inturn
 One for start timer, stop timer and lap setting
 
 # Music Player
-We have 3 buttons 
-One to fast forward
-One to start and pause
-One more to rewind
+Implemented spotify API with successfull authentication. The spotify api is basically remote-api which can control the spotify app remotively.
+Using this api has made it possible to play the song from a spotify playlist through this app.
 
 # Message browsing 
 We have all the messages of the given mobile saved in List View in this Activity
