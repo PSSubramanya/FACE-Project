@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/watchfrontpage"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:hint="14:35"
+        android:textSize="50dp"
+        android:gravity="bottom"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/systemtime"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="180dp"
+        android:singleLine="true"
+        android:id="@+id/systemdate"/>
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/msg"
+        android:background="@drawable/message_reader"/>
+
+    <Button
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/music"
+        android:background="@drawable/music_player"/>
+
+    <Button
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="270dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/stopwatch"
+        android:background="@drawable/stopwatch"/>
+
+
+</LinearLayout>
